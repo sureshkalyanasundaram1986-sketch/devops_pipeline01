@@ -1,13 +1,13 @@
 node{
   stage('Checkout Git'){
      
-     git 'https://github.com/javahometech/myweb/'
+     git 'https://github.com/sureshkalyanasundaram1986-sketch/devops_pipeline01'
 
 
      }
 
 
-  stage('MvN Build'){
+  stage('MVN Build'){
 
 
    sh 'mvn package'
